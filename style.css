@@ -86,13 +86,13 @@ section{
 
 #HOME{
     background-color: #BFA9A4;
-    height: 100vh;
+    height: 140vh;
     width: 100vw;
 }
 
 .conteudo_home{
     text-align: center;
-    padding: 15% 3% 6% 3%;
+    padding: 10% 3% 6% 5%;
 }
 
 .tam_texto_home{
@@ -104,11 +104,11 @@ section{
 .img_home{
     display: flex;
     justify-content: center;
-    padding: 8% 0% 0% 0%;
+    padding: 6% 0% 0% 3%;
 }
 
 #SOBRE{
-    height: 120vh;
+    height: 140vh;
     width: 100vw;
 }
 .conteudo_sobre{
@@ -129,6 +129,18 @@ section{
 
 }
 
+#AREA{
+    height: 220vh;
+    width: 100vw;
+}
+
+.gap_cards{
+    gap: 60px 0px;
+}
+.cor_cards{
+    background-color: #59381C;
+    color: white;
+}
 #CONTATO{
     background-color: #BFA9A4;
 }
