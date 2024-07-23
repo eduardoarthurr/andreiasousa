@@ -118,7 +118,7 @@ section{
 }
 
 #SOBRE{
-    height: 140vh;
+    height: 117vh;
     width: 100vw;
 }
 .conteudo_sobre{
@@ -185,4 +185,17 @@ section{
  /* CARDS (FIM) */
 #CONTATO{
     background-color: #BFA9A4;
+}
+
+.scroll-link {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    
+    
+}
+.scroll-link.show {
+    opacity: 1;
 }

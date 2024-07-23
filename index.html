@@ -90,7 +90,7 @@
             </div>
         </section>
         <section id="AREA">
-            <h3 class="font_2 display-3 mb-5 text-center">
+            <h3 class="font_2 display-1 mb-5 text-center">
                 ÁREAS DE ATUAÇÃO 
             </h3>
             <!-- CARDS COM BOOTSTRAP (INICIO) -->
@@ -329,9 +329,14 @@
         </section>
     <!-- BOTAO SCROLL PARA O TOP COM JS (INICIO) -->
         <footer class="rodape">
-            <button id="scrollTopButton">
-                <img alt="botao_img" src="./imagens/SETA.png">
-            </button>
+          <button id="scrollTopButton">
+            <img alt="botao_img" src="./imagens/SETA.png">
+          </button>
+          <a class="scroll-link" id="scrollLink" href="https://wa.me/5561996196981" target="_blank">
+            <div>
+                <img alt="whats_img" width="50" src="./imagens/whatsapp.png">
+            </div>
+        </a>
         </footer>
     </main>
     <script>
@@ -360,5 +365,18 @@
         scrollToButton.addEventListener("click", scrolltoTop);
     </script>
     <!-- BOTAO SCROLL PARA O TOP COM JS (FIM) -->
+     <script>
+      window.addEventListener('scroll', function() {
+    const scrollLink = document.getElementById('scrollLink');
+    const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+    // Altere 500 para a posição em pixels que você deseja que o link apareça
+    if (scrollPosition > 700) {
+        scrollLink.classList.add('show');
+    } else {
+        scrollLink.classList.remove('show');
+    }
+});
+     </script>
 </body>
 </html>
