@@ -115,7 +115,6 @@ section {
     #HOME{
         height: 140vh;
         width: 100vw;
-        margin: 0% 0% 0% 0%;
     }
 }
 
@@ -231,61 +230,36 @@ section {
     height: 150vh;
     width: 100vw;
 
-}
 
-.img_adv {
-    border-radius: 50%;
-
-}
-
-/* RESPONSIVADE IMAGEM (INICIO) */
-@media (min-width: 992px) {
-    .margin-top_img {
-        margin-top: 4rem;
-    }
-
-    .padding-left_img {
-        padding: 11rem;
-    }
-
-    .margin-top2_img {
-        margin-top: 2rem;
-    }
 }
 
 @media (max-width: 576px) {
-    .margin-top_cell_img {
-        margin-top: 2rem;
-    }
-
-    .padding-left-cell_img {
-        padding-left: 25px;
-        
-    }
-
-    .margin-left_cell_2_img {
-        margin-left: 0px;
+    #CONTATO {
+        background-color: var(--cor_terciaria);
+        height: 100vh;
+        width: 100vw;
+    
+    
     }
 }
 
-/* RESPONSIVADE IMAGEM (FIM) */
 
 @media (min-width: 992px) {
     .margin-top-btn {
-        margin-top: 15rem;
+        margin-top: 20rem;
     }
 
     .margin-left-btn {
-        margin-left: 3rem;
+        margin-left: 25rem;
     }
 
     .width-height-btn {
-        width: 450px;
-        height: 70px;
+        width: 500px;
+        height: 80px;
     }
 
     .margin-right-font-txt {
-        margin-right: 8rem;
+        margin-right: 5rem;
         font-size: 30px;
     }
 
@@ -297,13 +271,13 @@ section {
 
 @media (max-width: 576px) {
     .width-height-btn_cell {
-        width: 325px;
+        width: 350px;
         height: 65px;
     }
 
     .font-txt_cell {
         font-size: 20px;
-        margin-top: 10px;
+        margin-top: 120px;
     }
 
     .font-txt_cell_2 {
@@ -311,7 +285,7 @@ section {
     }
 
     .margin-bnt_cell {
-        margin-left: 20px;
+        margin-left: 15px;
         margin-top: 15px;
     }
 
