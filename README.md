@@ -1,7 +1,3 @@
-Claro! Aqui está um exemplo de README para o seu repositório no GitHub:
-
----
-
 # Landing Page para Advogada
 
 Este projeto consiste em uma landing page desenvolvida para uma advogada, criada como um trabalho freelancer.
