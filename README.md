@@ -34,4 +34,3 @@ Foi uma ótima oportunidade para aplicar conhecimentos de front-end e entender m
 
 ---
 
-Quer que eu deixe o texto mais formal ou mais informal? Quer incluir algo mais?
